@@ -1,0 +1,13 @@
+@mixin font($font-family, $font-file, $font-weight, $font-style)
+  @font-face
+    font-family: $font-family
+    src: url('./fonts/' + $font-file) format('truetype')
+    font-weight: $font-weight
+    font-style: $font-style
+
+// @include font('Lora', '../fonts/lora/Lora-Regular.ttf', normal, normal)
+// @include font('Lora', '../fonts/lora/Lora-Bold.ttf', bold, normal)
+// @include font('Lora', '../fonts/lora/Lora-Italic.ttf', normal, italic)
+// @include font('Lora', '../fonts/lora/Lora-BoldItalic.ttf', bold, italic)
+
+// @include font('PatuaOne', '../fonts/patuaone/PatuaOne-Regular.ttf', normal, normal)

@@ -69,6 +69,14 @@ export default {
 </script>
 
 <style lang="sass">
+@use 'assets/fonts'
+
+@font-face
+  font-family: 'icons'
+  src: url('/icon_font.ttf') format('truetype')
+  font-weight: 'normal'
+  font-style: 'normal'
+
 body
   margin: 0
   background-color: #F9F9F9

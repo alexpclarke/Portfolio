@@ -1,4 +1,4 @@
-# portfolio_remake
+# portfolio
 
 ## Project setup
 ```
@@ -13,6 +13,11 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
+```
+
+### Deploys project to gh-pages branch
+```
+npm run deploy
 ```
 
 ### Customize configuration
