@@ -1,11 +1,11 @@
 <template>
   <div id="Home">
     <div id="home-container">
-      <img src="@/assets/name_red.png" alt="Alex Clarke Logo" id="logo">
-      <ul id="nav-links">
-        <router-link to="/About"><li class="current">About</li></router-link>
-        <router-link to="/Portfolio"><li>Portfolio</li></router-link>
-        <router-link to="/Contact"><li>Contact</li></router-link>
+      <img src="@/assets/name_red.png" alt="Alex Clarke Logo">
+      <ul>
+        <li><router-link to="/About">About</router-link></li>
+        <li><router-link to="/Portfolio">Portfolio</router-link></li>
+        <li><router-link to="/Contact">Contact</router-link></li>
       </ul>
     </div>
   </div>
@@ -33,7 +33,7 @@ export default {
     margin-top: calc(50vh - 170px)
     img
       margin-left: 27px
-    #nav-links
+    ul
       li
         display: inline
         color: #000000

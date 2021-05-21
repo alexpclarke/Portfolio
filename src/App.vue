@@ -28,7 +28,7 @@ export default {
   components: {Header, Footer, UnderConstruction},
   data: function () {
     return {
-      transitionMode: '',
+      transitionMode: null,
       enterDuration: null,
       leaveDuration: null
     }
