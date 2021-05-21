@@ -39,8 +39,11 @@ const router = new VueRouter({
 
 // Sets it so that the title of the page is changed when the route changes.
 router.beforeEach((to, from, next) => {
-  document.title = to.name + ' | ALEX';
-  document.getElementById('#' + to.name);
+  if (to.name == 'Home') {
+    document.title = 'ALEX';
+  } else {
+    document.title = to.name + ' | ALEX';
+  }
   next();
 });
 

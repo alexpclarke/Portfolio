@@ -23,8 +23,9 @@ export default {
   position: absolute
   top: 0
   left: 0
-  height: 100%
-  width: 100%
+  height: 100vh
+  width: 100vw
+  z-index: 100
   #home-container
     width: 400px
     margin: auto
