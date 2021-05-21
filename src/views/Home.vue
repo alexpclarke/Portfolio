@@ -18,6 +18,12 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@font-face
+  font-family: 'icons'
+  src: url('/icon_font.ttf') format('truetype')
+  font-weight: 'normal'
+  font-style: 'normal'
+
 #Home
   background-color: #FFFFFF
   position: absolute
@@ -31,6 +37,8 @@ export default {
     margin: auto
     height: 170px
     margin-top: calc(50vh - 170px)
+    img
+      margin-left: 27px
     #nav-links
       li
         display: inline
