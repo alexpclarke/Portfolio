@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <UnderConstruction></UnderConstruction>
     <Header></Header>
     <div id="body" class="container">
       <transition 
@@ -20,10 +21,11 @@
 import Velocity from 'velocity-animate'
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
+import UnderConstruction from './components/UnderConstruction.vue';
 
 export default {
   name: 'app',
-  components: {Header, Footer},
+  components: {Header, Footer, UnderConstruction},
   data: function () {
     return {
       transitionMode: '',
