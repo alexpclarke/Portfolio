@@ -71,9 +71,7 @@ export default {
 </script>
 
 <style lang="sass">
-@import 'assets/fonts'
-
-@include font('icons', 'icon_font.ttf', normal, normal)
+@import 'fonts'
 
 body
   margin: 0
