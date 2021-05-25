@@ -5,9 +5,9 @@
         <img src="@/assets/name_red.png" alt="Alex Clarke Logo">
       </router-link>
       <ul>
-        <router-link to="/About"><li>About</li></router-link>
-        <router-link to="/Portfolio"><li>Portfolio</li></router-link>
-        <router-link to="/Contact"><li>Contact</li></router-link>
+        <router-link to="/about"><li>About</li></router-link>
+        <router-link to="/portfolio"><li>Portfolio</li></router-link>
+        <router-link to="/contact"><li>Contact</li></router-link>
       </ul>
     </div>
   </div>

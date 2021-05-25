@@ -4,6 +4,7 @@ import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
 import Portfolio from '@/views/Portfolio.vue'
 import Contact from '@/views/Contact.vue'
+import Placeholder from '@/views/projects/Placeholder.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/portfolio',
     name: 'Portfolio',
     component: Portfolio
+  },
+  {
+    path: '/portfolio/placeholder',
+    name: 'Placeholder',
+    component: Placeholder
   }
 ]
 
