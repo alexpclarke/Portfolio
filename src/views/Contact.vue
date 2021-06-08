@@ -22,7 +22,8 @@ h1
   font-size: 48px
   font-family: Helvetica, sans-serif
   font-weight: normal
-  margin: 20px 0px
+  padding: 20px 0px
+  margin: 0
 #form-container
   width: 600px
   margin: auto

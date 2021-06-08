@@ -1,5 +1,6 @@
 <template>
   <div id="portfolio">
+    <h1>Portfolio</h1>
     <router-link to="/portfolio/placeholder">
       <img class="thumbnail" src="@/assets/place-holder.png" alt="">
     </router-link>
@@ -35,9 +36,15 @@ export default {
 
 <style lang="sass" scoped>
 #portfolio
-  padding: 10px
   box-sizing: border-box
   overflow: auto
+  h1
+    text-align: center
+    font-size: 48px
+    font-family: Helvetica, sans-serif
+    font-weight: normal
+    padding: 20px 0px
+    margin: 0
   .thumbnail
     background-color: blue
     width: calc(50vw - 30px)

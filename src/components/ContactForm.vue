@@ -30,10 +30,10 @@ export default {
       line-height: 26px
       box-sizing: border-box
       font-family: helvetica
-      color: #333333
+      // color: #333333
     input[type="text"], textarea
       padding: 10px 14px
-      border: 2px solid #333333
+      border: 2px solid #000000
       outline: none
       width: 100%
       background-color: inherit 
@@ -48,7 +48,7 @@ export default {
         background-color: #FFFFFF
     input[type="submit"]
       padding: 10px 14px
-      border: 2px solid #333333
+      border: 2px solid #000000
       float: right
       cursor: pointer
       transition: all 0.2s
