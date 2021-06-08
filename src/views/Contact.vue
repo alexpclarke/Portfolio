@@ -1,5 +1,29 @@
 <template>
-  <div class="contact">
-    This is a contact page
+  <div id="Contact">
+    <h1>Contact</h1>
+    <div id="form-container">
+      <ContactForm></ContactForm>
+    </div>
   </div>
 </template>
+
+<script>
+import ContactForm from '@/components/ContactForm.vue';
+
+export default {
+  name: 'Contact',
+  components: {ContactForm}
+}
+</script>
+
+<style lang="sass" scoped>
+h1
+  text-align: center
+  font-size: 48px
+  font-family: Helvetica, sans-serif
+  font-weight: normal
+  margin: 20px 0px
+#form-container
+  width: 600px
+  margin: auto
+</style>
